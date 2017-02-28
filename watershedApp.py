@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 '''
+Slight modification of https://github.com/opencv/opencv/blob/master/samples/python/watershed.py
+
 Watershed segmentation
 =========
 
