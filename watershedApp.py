@@ -29,7 +29,7 @@ from __future__ import print_function
 
 import numpy as np
 import cv2
-from common import Sketcher
+#from common import Sketcher
     
 class App:
     def __init__(self, fn):
