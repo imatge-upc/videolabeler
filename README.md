@@ -14,13 +14,16 @@ _To be updated when the link is published_
 
 ## Labelling tool
 
-The technical details on how the tool works are detailed in the article mentioned above. To use the labelling tool, follow the instructions in videoLabeler.py and run the script. Note that the numpy and OpenCV libraries are required.
+This labelling tool allows to extend the labels from a frame to the rest of video, using the watershed and histogram backprojection techniques. The details on how the tool works are detailed in the article mentioned above. To use the labelling tool, follow the instructions in **videoLabeler.py** and run the script. Note that the _numpy_ and _OpenCV_ libraries are required.
 
 ## Database
 
 The labelled database consists on 3.313 images, gathered from snippets of different Youtube videos. These images have been labelled using the developed semi-automatic tool. The results have been supervised and corrected when needed by the author.
 
-As the videos are not from the author, only the labels are provided. In the labels, (0,0,0) correspond to the class sky, (4,4,4) to road and (6,6,6) to _other_.
+As the videos are not from the author, only the labels are provided. These labels are in .png format. Each pixel can have one of the following values:
+* (0,0,0) for the class _sky_
+* (4,4,4) for the class _road_
+* (6,6,6) for the class _other_
 
 The videos used are the following:
 * [Video 1] (https://www.youtube.com/watch?v=7ZKsSl5Bxzk)
