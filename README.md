@@ -36,14 +36,14 @@ The videos used are the following:
 * [Video 8] (https://www.youtube.com/watch?v=oQkOoqHm7O8)
 * [Video 9] (https://www.youtube.com/watch?v=75pjRpMBV7A)
 
-A script _will be soon_ provided to obtain the correspondent frames of each video, so the names and ordering of the frames match the labels.
+A script is provided (**videosToFrames.py**) to obtain the exact frames of each video used to create the database. When using this script, the needed frames of each video will be saved in a directory, with their names matching the names of the labels.
 
 The frames used for each video are:
 
 | Video | Frames from the video | 
 | :---: | :---: | :---: |
 | Video 1 | [1878-1908] / [2505-2555] / [2918-2948] / [4768-4798] / [7118-7158] / [8509-8528] | 
-| Video 2 | [841-916] / [3040-3136] / [2847-2940] / [357-436] / [541-638] / [640-749] / [943-1001] / [1057-1232] / [1916-2033] / [3644-3744] / [3814-3874] / [3904-4032] / [4536-4556] / [4616-4656] / [5083-5113] / [5183-5213] / [5304-5334] | 
+| Video 2 | [841-916] / [3040-3136] / [2846-2851] / [2856] / [2862-2863] / [2868] / [2875-2879] / [2884-2887] / [2892] / [2899] / [2901-2902] / [2906] / [2910-2911] / [2914-2915] / [2922] / [2926-2927] / [2932] / [2934] / [2940] / [357-436] / [541-638] / [640-749] / [943-1001] / [1057-1232] / [1916-2033] / [3644-3744] / [3814-3874] / [3904-4032] / [4536-4556] / [4616-4656] / [5083-5113] / [5183-5213] / [5304-5334] | 
 | Video 3 | [227-257] | 
 | Video 4 | [2110-2150] / [2404-2444] | 
 | Video 5 | [2785-2839] / [3337-3450] / [3588-3722] / [4894-5030] | 
@@ -53,3 +53,4 @@ The frames used for each video are:
 | Video 9 | [2-402] / [809-989] / [1026-1280] / [1673-1769] | 
 
 The order in which the frames are provided follows the order of the labels' names.
+
