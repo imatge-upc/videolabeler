@@ -20,10 +20,6 @@ This labelling tool allows to extend the labels from a frame to the rest of vide
 
 The labelled database consists on 3.313 images, gathered from snippets of different Youtube videos. These images have been labelled using the developed semi-automatic tool. The results have been supervised and corrected when needed by the author.
 
-As the videos are not from the author, only the labels are provided. These labels are in .png format. Each pixel can have one of the following values:
-* (0,0,0) for the class _sky_
-* (4,4,4) for the class _road_
-* (6,6,6) for the class _other_
 
 The videos used are the following:
 * [Video 1] (https://www.youtube.com/watch?v=7ZKsSl5Bxzk)
@@ -36,7 +32,26 @@ The videos used are the following:
 * [Video 8] (https://www.youtube.com/watch?v=oQkOoqHm7O8)
 * [Video 9] (https://www.youtube.com/watch?v=75pjRpMBV7A)
 
+
+As the videos are not from the author, only the labels are provided (**drones_labels.zip**). These labels are in .png format. Each pixel can have one of the following values:
+* (0,0,0) for the class _sky_
+* (4,4,4) for the class _road_
+* (6,6,6) for the class _other_
+
+
+Below are some examples of labels in the database. For visualization purposes, the values of the images were modified, where gray corresponds to the class _sky_, red to the class _road_ and violet to the class _other_.
+
+<img src="figures/seg00003.png" width="19%">
+<img src="figures/seg01364.png" width="19%">
+<img src="figures/seg01450.png" width="19%">
+<img src="figures/seg01564.png" width="19%">
+<img src="figures/seg01718.png" width="19%">
+
+
 A script is provided (**videosToFrames.py**) to automatically obtain the exact frames of each video used to create the database. When using this script, the needed frames of each video will be saved in a directory, with their names matching the names of the labels.
+
+
+<br></br>
 
 The frames used for each video are:
 
