@@ -36,7 +36,7 @@ The videos used are the following:
 * [Video 8] (https://www.youtube.com/watch?v=oQkOoqHm7O8)
 * [Video 9] (https://www.youtube.com/watch?v=75pjRpMBV7A)
 
-A script is provided (**videosToFrames.py**) to obtain the exact frames of each video used to create the database. When using this script, the needed frames of each video will be saved in a directory, with their names matching the names of the labels.
+A script is provided (**videosToFrames.py**) to automatically obtain the exact frames of each video used to create the database. When using this script, the needed frames of each video will be saved in a directory, with their names matching the names of the labels.
 
 The frames used for each video are:
 
