@@ -1,6 +1,6 @@
 # Spatio-Temporal Road Detection from Aerial Imagery using CNNs
 
-This repository gathers a semi-automatic tool for labelling videos, as well as a labelled database of videos of roads from the point of view of a small commercial drone. The work done is detailed in the article **Spatio-Temporal Road Detection from Aerial Imagery using CNNs_**, presented at the **VISAPP 2017**, the International Conference on Computer Vision Theory and Applications.
+This repository gathers a semi-automatic tool for labelling videos, as well as a labelled database of videos of roads from the point of view of a small commercial drone. The work done is detailed in the article **Spatio-Temporal Road Detection from Aerial Imagery using CNNs**, presented at the **VISAPP 2017**, the International Conference on Computer Vision Theory and Applications.
 
 The author of this project is [Belén Luque] (https://www.linkedin.com/in/belén-luque-lópez-ab5046bb/), under the supervision of [Javier Ruiz Hidalgo] (https://imatge.upc.edu/web/people/javier-ruiz-hidalgo) and [Josep Ramon Morros] (https://imatge.upc.edu/web/people/josep-ramon-morros).
 
