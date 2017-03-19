@@ -2,7 +2,7 @@
 
 This repository gathers a semi-automatic tool for labelling videos, as well as a labelled database of videos of roads from the point of view of a small commercial drone. The work done is detailed in the article **Spatio-Temporal Road Detection from Aerial Imagery using CNNs**, presented at the **VISAPP 2017**, the International Conference on Computer Vision Theory and Applications.
 
-The author of this project is [Belén Luque] (https://www.linkedin.com/in/belén-luque-lópez-ab5046bb/), under the supervision of [Javier Ruiz Hidalgo] (https://imatge.upc.edu/web/people/javier-ruiz-hidalgo) and [Josep Ramon Morros] (https://imatge.upc.edu/web/people/josep-ramon-morros).
+The author of this project is [Belén Luque](https://www.linkedin.com/in/belén-luque-lópez-ab5046bb/), under the supervision of [Javier Ruiz Hidalgo](https://imatge.upc.edu/web/people/javier-ruiz-hidalgo) and [Josep Ramon Morros](https://imatge.upc.edu/web/people/josep-ramon-morros).
 
 ## Abstract of the article
 
@@ -22,15 +22,15 @@ The labelled database consists on 3.313 images, gathered from snippets of differ
 
 
 The videos used are the following:
-* [Video 1] (https://www.youtube.com/watch?v=7ZKsSl5Bxzk)
-* [Video 2] (https://www.youtube.com/watch?v=uEkl2M3u4QY)
-* [Video 3] (https://www.youtube.com/watch?v=Itas_NSL7k8)
-* [Video 4] (https://www.youtube.com/watch?v=5hT6MoJmxNI)
-* [Video 5] (https://www.youtube.com/watch?v=KNALyO9zaaA)
-* [Video 6] (https://www.youtube.com/watch?v=X2-qVT90lbE)
-* [Video 7] (https://www.youtube.com/watch?v=bHV8gidxP-M)
-* [Video 8] (https://www.youtube.com/watch?v=oQkOoqHm7O8)
-* [Video 9] (https://www.youtube.com/watch?v=75pjRpMBV7A)
+* [Video 1](https://www.youtube.com/watch?v=7ZKsSl5Bxzk)
+* [Video 2](https://www.youtube.com/watch?v=uEkl2M3u4QY)
+* [Video 3](https://www.youtube.com/watch?v=Itas_NSL7k8)
+* [Video 4](https://www.youtube.com/watch?v=5hT6MoJmxNI)
+* [Video 5](https://www.youtube.com/watch?v=KNALyO9zaaA)
+* [Video 6](https://www.youtube.com/watch?v=X2-qVT90lbE)
+* [Video 7](https://www.youtube.com/watch?v=bHV8gidxP-M)
+* [Video 8](https://www.youtube.com/watch?v=oQkOoqHm7O8)
+* [Video 9](https://www.youtube.com/watch?v=75pjRpMBV7A)
 
 
 As the videos are not from the author, only the labels are provided (**drones_labels.zip**). These labels are in .png format. Each pixel can have one of the following values:
@@ -56,7 +56,7 @@ A script is provided (**videosToFrames.py**) to automatically obtain the exact f
 The frames used for each video are:
 
 | Video | Frames from the video | 
-| :---: | :---: | :---: |
+| :---: | :---: | 
 | Video 1 | [1878-1908] / [2505-2555] / [2918-2948] / [4768-4798] / [7118-7158] / [8509-8528] | 
 | Video 2 | [841-916] / [3040-3136] / [2846-2851] / [2856] / [2862-2863] / [2868] / [2875-2879] / [2884-2887] / [2892] / [2899] / [2901-2902] / [2906] / [2910-2911] / [2914-2915] / [2922] / [2926-2927] / [2932] / [2934] / [2940] / [357-436] / [541-638] / [640-749] / [943-1001] / [1057-1232] / [1916-2033] / [3644-3744] / [3814-3874] / [3904-4032] / [4536-4556] / [4616-4656] / [5083-5113] / [5183-5213] / [5304-5334] | 
 | Video 3 | [227-257] | 
